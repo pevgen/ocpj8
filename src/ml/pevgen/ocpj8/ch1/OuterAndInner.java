@@ -39,7 +39,5 @@ public class OuterAndInner {
         // creation Inner static class
         OuterAndInner.InnerStatic innerStatic = new OuterAndInner.InnerStatic();
         OuterAndInner.InnerStatic innerStatic2 = new InnerStatic();
-
-
     }
 }
