@@ -1,8 +1,8 @@
 package ml.pevgen.ocpj8.ch2;
 
 /**
- * Singleton with lazy load and «Double-Checked Locking» (the second from several techniques)
- *  (problems with exception in constructor)
+ * Singleton with lazy load and om demand holder : https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom
+ *  (problems can appear in with exceptions in constructor)
  * @author Polyak
  * @since 13.01.2017
  */
