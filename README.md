@@ -1,6 +1,9 @@
 # ocpj8
     Examples for my preparation to exam OCP J8
 
+## 2017-01-15
+  [+] add stub classes for ch3 (need realization)
+
 ## 2017-01-13
   [+] add Singleton examples ml.pevgen.ocpj8.ch2.Singleton* 
   
