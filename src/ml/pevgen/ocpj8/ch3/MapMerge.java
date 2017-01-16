@@ -37,20 +37,19 @@ public class MapMerge {
          k=First, v=England
          */
 
-        // add new
+        // no key: add new
         map.merge("Fourth", "Germany", (k, v) -> "Russia");  // Fourth not present in keys --> "Germany"
         // map.merge("Fifth", null, (k, v) -> "Russia");  // !!! NullPointerException
 
-        // replace value : vOld=England, vNew=defaultCountry
-        map.merge("First", "defaultCountry", (vOld, vNew) -> vOld + "_replaced_" + vNew);//k=First, v=England_replaced_defaultCountry
-
-        // replace null value : null -> defaultCountry (BiFunction is not execute)
+        // key exist, value null: replace null value with default: null -> defaultCountry (BiFunction is not execute)
         map.merge("Second", "defaultCountry", (s, s2) -> null);
 
-        // remove, if
-        // 1.key present
-        // 2.value is not null
-        // 3.BiFunction return null
+        // key exist, value not null: replace value : vOld=England, vNew=defaultCountry
+        map.merge("First", "defaultCountry", (vOld, vNew) -> vOld + "_replaced_" + vNew);//k=First, v=England_replaced_defaultCountry
+
+
+        // remove key and value
+        // key exist,value is not null, BiFunction return null
         map.merge("Third", "defaultCountry", (s, s2) -> null);  // remove "Third"
 
         System.out.print("\n\n------- add ----------------");
