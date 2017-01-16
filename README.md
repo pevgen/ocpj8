@@ -3,6 +3,7 @@
 
 ## 2017-01-16
   [+] create ArrayDeque examples (ArrayDequeSamples)
+  [+] create MapMerge examples (MapMerge)
 
 ## 2017-01-15
   [+] add stub classes for ch3 (need realization)
