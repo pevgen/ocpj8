@@ -1,6 +1,9 @@
 # ocpj8
     Examples for my preparation to exam OCP J8
 
+## 2017-01-17
+  [+] create example for sorting string SortSample 
+
 ## 2017-01-16
   [+] create ArrayDeque examples (ArrayDequeSamples)
   [+] create MapMerge examples (MapMerge)
