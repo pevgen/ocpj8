@@ -1,6 +1,9 @@
 # ocpj8
     Examples for my preparation to exam OCP J8
 
+## 2017-01-18
+  [+] create example for method references MethodReferences 
+
 ## 2017-01-17
   [+] create example for sorting string SortSample 
 
