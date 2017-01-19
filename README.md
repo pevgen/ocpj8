@@ -1,6 +1,9 @@
 # ocpj8
     Examples for my preparation to exam OCP J8
 
+## 2017-01-19
+  [+] add example for streams: anyMatch, allMatch, noneMatch - AnyAllNoneSamples
+
 ## 2017-01-18
   [+] create example for method references MethodReferences 
 
