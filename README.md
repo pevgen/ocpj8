@@ -1,6 +1,9 @@
 # ocpj8
     Examples for my preparation to exam OCP J8
 
+## 2017-02-22
+   [+] add example for streams: ArraysToSetExample (create one set from two arrays)
+
 ## 2017-01-19
   [+] add example for streams: anyMatch, allMatch, noneMatch - AnyAllNoneSamples
 
